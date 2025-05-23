@@ -23,7 +23,7 @@ function Java() {
                 onClick={() => setExpanded(!expanded)}
                 className="text-left font-bold cursor-pointer"
             >
-                {expanded ? '🍵 Java ▲' : '🍵 Java ▼'}
+                {expanded ? '🍵 Java (AP Computer Science / general) ▲' : '🍵 Java (AP Computer Science / general) ▼'}
             </button>
 
             { /* Curriculum overview */ }
