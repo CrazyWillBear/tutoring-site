@@ -14,6 +14,7 @@ import Curricula from "./Curricula.jsx";
 import MainSubtitle from "./MainSubtitle.jsx";
 import WhatIOffer from "./WhatIOffer.jsx";
 import BookButton from "./BookButton.jsx";
+import Copyright from "./Copyright.jsx";
 
 export default MainBox;
 
@@ -42,6 +43,7 @@ function MainBox() {
 
                 <div className="hyphens-auto break-words px-6 py-2">
                     <Footers />
+                    <Copyright />
                 </div>
             </div>
         </>
