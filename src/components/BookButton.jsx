@@ -36,7 +36,7 @@ function Desktop() {
                     window.calendar.schedulingButton.load({
                         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0UsfDVmW6bLo_P11xJCKVZ2jpMVQqjdtT_YKCcm5IJtxGmdt7Gpr5DiF341qae62g1YuCve8Lm?gv=true',
                         color: '#0B8043',
-                        label: 'Book an appointment',
+                        label: 'Book a session',
                         target: buttonRef.current,
                     });
                 }
@@ -48,7 +48,7 @@ function Desktop() {
                 window.calendar.schedulingButton.load({
                     url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0UsfDVmW6bLo_P11xJCKVZ2jpMVQqjdtT_YKCcm5IJtxGmdt7Gpr5DiF341qae62g1YuCve8Lm?gv=true',
                     color: '#0B8043',
-                    label: 'Book an appointment',
+                    label: 'Book a session',
                     target: buttonRef.current,
                 });
             }
@@ -67,7 +67,7 @@ function Mobile() {
             onClick={() => setClicked(!clicked)}
             className={`rounded-sm p-2 px-4 ${clicked ? 'bg-green-800' : 'bg-green-700'}`}
         >
-            <p className="font-semibold">Book an appointment</p>
+            <p className="font-semibold">Book a session</p>
         </a>
     );
 }
