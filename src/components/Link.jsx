@@ -1,9 +1,3 @@
-/*
- This Source Code Form is subject to the terms of the Mozilla Public
- License, v. 2.0. If a copy of the MPL was not distributed with this
- file, You can obtain one at https://mozilla.org/MPL/2.0/.
-*/
-
 export default Link;
 
 /**
@@ -13,6 +7,6 @@ export default Link;
  * @param txt - Text to display
  * @returns {JSX.Element} The link component
  */
-function Link({ _href, txt }) {
+function Link({_href, txt}) {
     return <a href={_href} className="text-sky-300 hover:underline">{txt}</a>
 }

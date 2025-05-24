@@ -8,11 +8,11 @@ const license_url = "https://github.com/CrazyWillBear/tutoring-site/blob/main/LI
 function Copyright() {
     return (
         <div className="text-[9px]">
-            { /* Notice for resume */ }
+            { /* Notice for resume */}
             <p className="pt-2 text-center">
                 &copy; 2025 William Chastain. All rights reserved.
-                <br />
-                <Link _href={gh_url} txt="Source code" /> - <Link _href={license_url} txt="License" />
+                <br/>
+                <Link _href={gh_url} txt="Source code"/> - <Link _href={license_url} txt="License"/>
             </p>
         </div>
     );

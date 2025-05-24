@@ -5,8 +5,11 @@
 */
 
 import {useState} from "react";
+import Link from "../Link.jsx";
 
 export default Java;
+
+const ap_csci_url = "https://apstudents.collegeboard.org/courses/ap-computer-science-a";
 
 /**
  * Python component. Expandable, when expanded displays information on Python.
@@ -18,7 +21,7 @@ function Java() {
 
     return (
         <>
-            { /* Expand button */ }
+            { /* Expand button */}
             <button
                 onClick={() => setExpanded(!expanded)}
                 className="text-left font-bold cursor-pointer"
@@ -26,20 +29,20 @@ function Java() {
                 {expanded ? '🍵 Java (AP Comp Sci) ▲' : '🍵 Java (AP Comp Sci) ▼'}
             </button>
 
-            { /* Curriculum overview */ }
+            { /* Curriculum overview */}
             <div
                 className={`lg:px-5 transition-all duration-300 overflow-hidden ${
                     expanded ? 'max-h-screen' : 'max-h-0'
                 }`}
             >
                 <p className="pt-2">
-                    Java is a fast and powerful language that was released in 1995. It has stood the test of time,
-                    used mostly for mobile apps (specifically Android), backend development, and enterprise software
-                    for banks and large businesses.
+                    Java is a fast and powerful language that was released in 1995. It has stood the test of time, used
+                    today in mobile apps (specifically Android), backend development, and enterprise software for banks
+                    and other large businesses.
                 </p>
                 <p className="pt-2">
-                    We offer Java classes oriented specifically towards the AP Computer Science curriculum. You and
-                    your student can choose whether or not to focus on AP Computer Science prep.
+                    We offer Java classes oriented specifically towards the <Link _href={ap_csci_url} txt="AP Computer
+                    Science A"/> curriculum.
                 </p>
             </div>
         </>

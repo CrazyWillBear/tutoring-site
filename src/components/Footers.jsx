@@ -4,11 +4,7 @@
  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 */
 
-import Link from "./Link.jsx";
-
 export default Footers;
-
-const policy_url = "https://docs.google.com/document/d/e/2PACX-1vTzjDG-TrWVMK8LP3louS1EUoTQlPVtGSJpnJZjMQmse8HvttPg506BHsHlGsywa3M23dGFxeImWxI0/pub";
 
 /**
  * Footers component, displayed at bottom of box.
@@ -17,19 +13,17 @@ const policy_url = "https://docs.google.com/document/d/e/2PACX-1vTzjDG-TrWVMK8LP
  */
 function Footers() {
     return (
-        <div className="text-sm">
-            { /* Notice for resume */ }
+        <div className="text-xs">
+            { /* Curricula notice */}
             <p>
-                <sup>*</sup> For detailed information about me and my resume, check out <Link
-                    _href="https://www.capbear.net"
-                    txt="my website"
-                />.
+                <sup>*</sup> These fields are more flexible to student interests, which will shape project and
+                curriculum planning.
             </p>
 
-            { /* Notice regarding sessions */ }
+            { /* Notice regarding sessions */}
             <p>
-                <sup>**</sup> This is reserved for those who <i>actually need</i> it. Please do not try to take unfair
-                advantage of this <Link _href={policy_url} txt="policy" />.
+                <sup>**</sup> This is reserved for those who <i>actually</i> need it. Please do not try to take unfair
+                advantage of this policy.
             </p>
         </div>
     );

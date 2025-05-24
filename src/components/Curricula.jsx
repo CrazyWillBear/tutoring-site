@@ -17,24 +17,24 @@ export default Curricula;
 function Curricula() {
     return (
         <div className="py-2">
-            { /* Title */ }
+            { /* Title */}
             <h2 className="text-lg font-bold">🎓 Curricula:</h2>
 
-            { /* Description */ }
+            { /* Description */}
             <p className="px-5 text-justify pt-2">
                 Curricula are tailored to the individual student, but are largely pre-planned.
             </p>
 
-            { /* Expandable program curricula */ }
+            { /* Expandable program curricula */}
             <div className="px-5">
-                <div className="pt-2"><IntroToPython /></div>
-                <div className="pt-2"><JavaAPPrep /></div>
+                <div className="pt-2"><IntroToPython/></div>
+                <div className="pt-2"><JavaAPPrep/></div>
             </div>
 
-            { /* Additional curriculum */ }
+            { /* Additional curriculum */}
             <p className="pt-2 px-5 text-justify">
                 Other subjects, including data science and web development, don't have specific curricula. Students are
-                assigned more highly tailored projects in these subjects.
+                assigned more highly tailored projects in these subjects<sup>*</sup>.
             </p>
         </div>
     );

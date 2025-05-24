@@ -64,7 +64,7 @@ function Mobile() {
     return (
         <a
             href="https://calendar.app.google/k6rRXAeAdZcttxAg8"
-            onClick={ () => setClicked(!clicked) }
+            onClick={() => setClicked(!clicked)}
             className={`rounded-sm p-2 px-4 ${clicked ? 'bg-green-800' : 'bg-green-700'}`}
         >
             <p className="font-semibold">Book an appointment</p>
@@ -75,7 +75,7 @@ function Mobile() {
 function BookButton() {
     return (
         <div className="flex justify-center pt-2 text-base">
-            { isMobile ? Mobile() :  Desktop() }
+            {isMobile ? Mobile() : Desktop()}
         </div>
     );
 }

@@ -4,9 +4,6 @@
  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 */
 
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import MainBox from "./components/MainBox.jsx";
 import GlobeBg from "./components/GlobeBg.jsx";

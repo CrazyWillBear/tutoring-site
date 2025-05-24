@@ -14,10 +14,10 @@ export default WhatIOffer;
 function WhatIOffer() {
     return (
         <div className="py-2">
-            { /* Title */ }
+            { /* Title */}
             <h2 className="text-lg font-bold">🔍 What I offer:</h2>
 
-            { /* Description */ }
+            { /* Description */}
             <div className="px-5 text-justify">
                 <p className="pt-2">
                     I offer one-on-one tutoring tailored to your goals and experience level. Whether you're just

@@ -22,22 +22,22 @@ function JavaAPPrep() {
 
     return (
         <div className="px-5">
-            { /* Expand button */ }
+            { /* Expand button */}
             <button
                 onClick={() => setExpanded(!expanded)}
                 className="text-left font-bold cursor-pointer"
             >
-                {expanded ? '🍵 Java (AP Computer Science) ▲' : '🍵 Java (AP Computer Science) ▼'}
+                {expanded ? '🍵 Java (AP Comp Sci) ▲' : '🍵 Java (AP Comp Sci) ▼'}
             </button>
 
-            { /* Curriculum overview */ }
+            { /* Curriculum overview */}
             <div
                 className={`lg:px-5 transition-all duration-300 overflow-hidden ${
                     expanded ? 'max-h-screen' : 'max-h-0'
                 }`}
             >
-                <ol className="list-decimal px-5">
-                    <li>Setup, <Link _href={hello_world_url} txt="Hello World" />, & Variables - (<i>1 session</i>)</li>
+                <ol className="list-decimal list-inside">
+                    <li>Setup, <Link _href={hello_world_url} txt="Hello World"/>, & Variables - (<i>1 session</i>)</li>
                     <li>Objects & Classes - (<i>1-2 session(s)</i>)</li>
                     <li>Conditionals & Booleans - (<i>1-2 session</i>)</li>
                     <li>Looping - (<i>1-2 session(s)</i>)</li>

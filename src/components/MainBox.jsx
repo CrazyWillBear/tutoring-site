@@ -26,24 +26,25 @@ export default MainBox;
 function MainBox() {
     return (
         <>
-            <div className="bg-blur-mb lg:bg-blur-dt m-5 lg:m-auto lg:w-3/4 w-full rounded-3xl lg:rounded-lg lg:rounded-md lg:border-4 bg-teal-800/50">
+            <div
+                className="bg-blur-mb lg:bg-blur-dt m-5 lg:m-auto lg:w-3/4 w-full rounded-3xl lg:rounded-md lg:border-4 bg-teal-800/50">
                 <div className="px-6 pt-6">
-                    <MainTitle />
-                    <MainSubtitle />
-                    <BookButton />
+                    <MainTitle/>
+                    <MainSubtitle/>
+                    <BookButton/>
                     <div className="hyphens-auto break-words">
-                        <WhatIOffer />
-                        <TutoringPrograms />
-                        <TutoringStructure />
-                        <Curricula />
-                        <AboutMe />
-                        <PricingAndPayment />
+                        <WhatIOffer/>
+                        <TutoringPrograms/>
+                        <TutoringStructure/>
+                        <Curricula/>
+                        <AboutMe/>
+                        <PricingAndPayment/>
                     </div>
                 </div>
 
                 <div className="hyphens-auto break-words px-6 py-2">
-                    <Footers />
-                    <Copyright />
+                    <Footers/>
+                    <Copyright/>
                 </div>
             </div>
         </>

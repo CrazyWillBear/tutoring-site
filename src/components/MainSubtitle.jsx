@@ -14,7 +14,9 @@ export default MainSubtitle;
 function MainSubtitle() {
     return (
         <h2 className="text-center text-xl font-semibold pt-2">
-            Computer science tutoring, summer of 2025.
+            Computer science tutoring
+            <br/>
+            Summer 2025
         </h2>
     );
 }

@@ -1,10 +1,4 @@
-/*
- This Source Code Form is subject to the terms of the Mozilla Public
- License, v. 2.0. If a copy of the MPL was not distributed with this
- file, You can obtain one at https://mozilla.org/MPL/2.0/.
-*/
-
-import { useEffect, useRef } from "react";
+import {useEffect, useRef} from "react";
 import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min";
 
@@ -35,6 +29,6 @@ function Globe() {
         };
     }, []);
 
-    return <div ref={ref} style={{ width: "100vw", height: "100vh", position: "fixed", top: 0, left: 0, zIndex: -1 }} />;
+    return <div ref={ref} style={{width: "100vw", height: "100vh", position: "fixed", top: 0, left: 0, zIndex: -1}}/>;
 }
 

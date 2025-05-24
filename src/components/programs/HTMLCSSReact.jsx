@@ -18,7 +18,7 @@ function HTMLCSSReact() {
 
     return (
         <>
-            { /* Expand button */ }
+            { /* Expand button */}
             <button
                 onClick={() => setExpanded(!expanded)}
                 className="text-left font-bold cursor-pointer"
@@ -26,7 +26,7 @@ function HTMLCSSReact() {
                 {expanded ? '📄 HTML, CSS, & React.js ▲' : '📄 HTML, CSS, & React.js ▼'}
             </button>
 
-            { /* Curriculum overview */ }
+            { /* Curriculum overview */}
             <div
                 className={`lg:px-5 transition-all duration-300 overflow-hidden ${
                     expanded ? 'max-h-screen' : 'max-h-0'

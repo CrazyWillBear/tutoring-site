@@ -21,7 +21,7 @@ function IntroToPython() {
 
     return (
         <div className="px-5">
-            { /* Expand button */ }
+            { /* Expand button */}
             <button
                 onClick={() => setExpanded(!expanded)}
                 className="text-left font-bold cursor-pointer"
@@ -29,14 +29,14 @@ function IntroToPython() {
                 {expanded ? '🐍 Python ▲' : '🐍 Python ▼'}
             </button>
 
-            { /* Curriculum overview */ }
+            { /* Curriculum overview */}
             <div
                 className={`lg:px-5 transition-all duration-300 overflow-hidden ${
                     expanded ? 'max-h-screen' : 'max-h-0'
                 }`}
             >
-                <ol className="list-decimal px-5">
-                    <li>Setup & <Link _href={hello_world_url} txt="Hello World" /> - (<i>1 session</i>)</li>
+                <ol className="list-decimal list-inside">
+                    <li>Setup & <Link _href={hello_world_url} txt="Hello World"/> - (<i>1 session</i>)</li>
                     <li>Variables & Data Types - (<i>1-2 session(s)</i>)</li>
                     <li>Input & Output - (<i>1 session</i>)</li>
                     <li>Conditionals & Booleans - (<i>1-2 session(s)</i>)</li>
