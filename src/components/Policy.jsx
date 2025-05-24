@@ -28,7 +28,7 @@ function Policy() {
 
             { /* Policy overview */}
             <div
-                className={`px-5 transition-all duration-300 overflow-hidden ${
+                className={`transition-all duration-300 overflow-hidden ${
                     expanded ? 'max-h-screen' : 'max-h-0'
                 }`}
             >
